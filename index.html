@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
     <script src="https://kit.fontawesome.com/4b59cf2ce9.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./img/camera.gif" type="image/x-icon">
+
 </head>
 
 <body>
-    <!-- Teste -->
+
     <div>
         <header>
             <img src="img/camera.gif">
@@ -20,21 +21,16 @@
             </div>
             <div class="nav_bar">
                 <ul>
-                    <a target="_blank" href="index.html">
-                        <li>Pagina Inicial</li>
-                    </a>
-                    <li>Novidades</li>
-                    <li>Filmes</li>
-                    <a target="_blank" href="pages/formulario.php">
-                        <li>Formulário</li>
-                    </a>
+                    <li><a id="id_scroll_suave" href="#inicio">Pagina Inicial</a></li>
+                    <li><a id="id_scroll_suave" href="#novidades">Novidades</a></li>
+                    <li><a href="pages/formulario.php">Formulário</a></li>
                 </ul>
             </div>
         </header>
     </div>
 
 
-    <div class="showcase">
+    <div class="showcase" id="inicio">
         <div class="transparent-background">
             <div class="content">
                 <h1>BEM VINDO AO NEW CINE</h1>
@@ -43,7 +39,7 @@
         </div>
     </div>
 
-    <div class="filme">
+    <div class="filme" id="novidades">
         <div class="banner">
             <a target="_blank" href="https://www.youtube.com/watch?v=zAGVQLHvwOY"><img src="./img/banner-joker.jpg"
                     alt=""></a>
@@ -87,3 +83,4 @@
 </body>
 
 </html>
+<script src="./js/scroll_suave.js"></script>

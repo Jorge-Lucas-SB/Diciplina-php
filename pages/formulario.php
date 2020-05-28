@@ -16,36 +16,46 @@
 </head>
 
 <body>
-    <div class='formulario'>
+    <div class="div_fundo">
 
-        <form action="enviar.php" method="post">
-            
-                <h4>Formulario de mensagem</h4>
+        <div class="div_transparencia">
 
-                <label for="nome">Nome:</label>
+            <div class='formulario'>
 
-                <input type="text" name="nome" id="nome" required> <br>
+                <form action="enviar.php" method="post">
 
-                <label for="idade">Idade:</label>
+                    <h4>Formulario de mensagem</h4>
 
-                <input type="number" name="idade" id="idade" required> <br>
+                    <label for="nome">Nome:</label>
 
-                <label for="site">Site: </label>
+                    <input type="text" name="nome" id="nome" required> <br>
 
-                <input type="url" name="site" id="site" required> <br>
+                    <label for="idade">Idade:</label>
 
-                <label for="email">Email: </label>
+                    <input type="number" name="idade" id="idade" required> <br>
 
-                <input type="email" name="email" id="email" required> <br>
+                    <label for="site">Site: </label>
 
-                <label for="mensagem">Mensagem: </label>
+                    <input type="url" name="site" id="site" required> <br>
 
-                <textarea name="mensagem" id="mensagem" required></textarea> <br> <br>
+                    <label for="email">Email: </label>
 
-                <input type="submit" value="Enviar">
+                    <input type="email" name="email" id="email" required> <br>
 
-        </form>
+                    <label for="mensagem">Mensagem: </label>
+
+                    <textarea name="mensagem" id="mensagem" required></textarea> <br> <br>
+
+                    <input type="submit" value="Enviar">
+
+                </form>
+
+            </div>
+
+        </div>
+        
     </div>
+
 
 </body>
 
