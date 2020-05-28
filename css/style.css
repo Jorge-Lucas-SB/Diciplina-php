@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    float: left;
+    color: white;
+    width: 100%;
+    height: 100px;
+    background: black;
+}
+header img{
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin-left: 15px;
+}
+
+.nav_bar{
+    float: right;
+    margin-right: 180px;
+    margin-top: 23px;
+}
+
+.nav_bar ul li {
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.nav_bar a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    max-width: 980px;
+    margin: 0 auto;
+    height: 100%;
+    float: left;
+}
+
+.container h1{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.container b {
+    color:  orangered;
+}
+
+.showcase{
+    float: left;
+    background-image: url("../img/backgound-showcase-starwars.jpg");
+    width: 100%;
+    min-height: 625px;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.transparent-background{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    min-height: 625px;
+    float: left;
+}
+
+.showcase h1{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.showcase h2{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.content{
+    margin-top: 240px;
+}
