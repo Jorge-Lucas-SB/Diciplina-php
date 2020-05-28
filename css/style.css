@@ -11,6 +11,7 @@ header{
     width: 100%;
     height: 100px;
     background: black;
+    border-bottom: grey 4px solid;
 }
 header img{
     height: 100px;
@@ -34,6 +35,10 @@ header img{
 .nav_bar a{
     text-decoration: none;
     color: white;
+    transition: 0.2s;
+}
+.nav_bar li:hover{
+    background-color: darkred;
 }
 
 .container{
@@ -49,7 +54,7 @@ header img{
 }
 
 .container b {
-    color:  orangered;
+    color:  darkred;
 }
 
 .showcase{
@@ -82,4 +87,91 @@ header img{
 
 .content{
     margin-top: 240px;
+}
+
+.filme{
+    float: left;
+    background-color: black;
+    width: 100%;
+    height: 625px;
+    color: white;
+}
+
+.banner{
+    float: left;
+    width: 850px;
+    height: 484px;
+    padding: 25px;
+    margin-top: 40px;
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+
+.cardsfilme{
+    float: right;
+    padding: 25px;
+    padding-top: 0;
+    width: 390px;
+    height: 547px;
+}
+
+.cardsfilme img{
+    width: 88px;
+    height: 132px;
+    float: left;
+    margin-right: 10px;
+}
+.cards{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px;
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(170,170,170,1) 40%, rgba(71,71,71,1) 62%, rgba(0,0,0,1) 98%);
+    padding: 10px;
+    
+}
+
+/* .cards :hover{
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(71,71,71,1) 38%, rgba(170,170,170,1) 65%, rgba(255,255,255,1) 100%);
+} */
+
+.cards .fas{
+    font-size: 25px;
+    margin: 5px;
+    transition: 0.2s;
+}
+
+.cards a{
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.cards .fas:hover{
+    font-size: 28px;
+}
+.cards a:hover{
+    color: darkred;
+    
+}
+.textofilme{
+    width: 290px;
+    float: right;
+}
+.cardsfilme p{
+    font-size: 18px;
+    margin: 0 ;
+    width: auto;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.cardsfilme h2{
+    color: darkred;
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
